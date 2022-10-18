@@ -1,9 +1,8 @@
 {
-  "name": "sendemail",
+  "name": "client.1lives",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ionic/react-router": "^6.2.8",
     "@reduxjs/toolkit": "^1.8.5",
     "@splidejs/react-splide": "^0.7.12",
     "@stripe/react-stripe-js": "^1.11.0",
