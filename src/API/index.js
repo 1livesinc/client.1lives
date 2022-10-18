@@ -4,7 +4,7 @@ import axios from 'axios';
 export const IpAddress = async ({ setLoading, setIpData }) => {
   try {
     let res = await axios.get(
-      `http://api.ipstack.com/check?access_key=${process.env.IP_ADDRESS_API_KEY}`
+      `http://api.ipstack.com/check?access_key=${process.env.ip_address_api_key}`
     );
     if (res) {
       setLoading(false);
@@ -22,7 +22,7 @@ export const GetContries = async ({ setLoading, setCountries }) => {
       `https://api.apilayer.com/number_verification/countries`,
       {
         headers: {
-          apikey: process.env.VALIDATE_API_KEY,
+          apikey: process.env.validate_api_key,
         },
       }
     );
@@ -46,7 +46,7 @@ export const SendEmail = async ({
 }) => {
   try {
     const datas = { fullName, email, phone, message };
-    let res = await axios.post(`http://localhost:5000/send`, datas);
+    let res = await axios.post(`https://stage-1lives.herokuapp.com/`, datas);
     if (res) {
       setSend(res.data);
     }

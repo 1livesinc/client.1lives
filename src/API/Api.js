@@ -1,12 +1,12 @@
 import axios from "axios";
 
-const URL = process.env.SERVER_URL;
+const URL = process.env.server_url;
 
 // ***** Get IP Adress
 export const IpAdrress = async ({ setLoading, setIPData }) => {
   try {
     let res = await axios.get(
-      `http://api.ipstack.com/check?access_key=${process.env.IP_ADDRESS_API_KEY}`
+      `http://api.ipstack.com/check?access_key=${process.env.ip_address_api_key}`
     );
     if (res) {
       setLoading(false);
@@ -25,7 +25,7 @@ export const GetCountries = async ({ setLoading, setCountries }) => {
       `https://api.apilayer.com/number_verification/countries`,
       {
         headers: {
-          apikey: process.env.VALIDATE_API_KEY,
+          apikey: process.env.validate_api_key,
         },
       }
     );
@@ -51,7 +51,7 @@ export const ValidateNumber = async ({
       `https://api.apilayer.com/number_verification/validate?number=${phoneFull}`,
       {
         headers: {
-          apikey: process.env.VALIDATE_API_KEY,
+          apikey: process.env.validate_api_key,
         },
       }
     );
