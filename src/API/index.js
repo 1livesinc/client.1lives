@@ -4,7 +4,7 @@ import axios from 'axios';
 export const IpAddress = async ({ setLoading, setIpData }) => {
   try {
     let res = await axios.get(
-      `http://api.ipstack.com/check?access_key=${process.env.REACT_APP_IP_ADRRESS_API_KEY}`
+      `http://api.ipstack.com/check?access_key=${process.env.IP_ADDRESS_API_KEY}`
     );
     if (res) {
       setLoading(false);
@@ -22,7 +22,7 @@ export const GetContries = async ({ setLoading, setCountries }) => {
       `https://api.apilayer.com/number_verification/countries`,
       {
         headers: {
-          apikey: process.env.REACT_APP_NUMBER_VALIDATE_API_KEY,
+          apikey: process.env.VALIDATE_API_KEY,
         },
       }
     );
