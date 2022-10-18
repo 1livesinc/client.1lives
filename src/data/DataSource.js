@@ -14,28 +14,28 @@ const sliderdata = [
     id:0,
     image: `${slide0}`,
     title:'DevOps',
-    desc:'We provide technology-based guidance and advice as it relates to the modernization and optimization of existing methodologies.'
+    desc:'Welcome! Site currently under construction. Kindly use the contact form to message us.'
   },
 
   {
     id:1,
     image: `${slide1}`,
     title:'SECaaS',
-    desc:'We partner with industry top cloud providers to bring you on-demand services, & storage applications.'
+    desc:'We partner with industry top security providers.'
   },
 
   {
     id:2,
     image: `${slide2}`,
     title:'Assistive Technology',
-    desc:'We are client-centric team of professionals with a passion for creating fully responsive webapps and digital experiences.'
+    desc:'We procure products, equipment, and develop systems that enhance learning, working, and daily living for persons with disabilities.'
   },
 
   {
     id:3,
     image: `${slide3}`,
     title:'Solar Energy',
-    desc:'We acquire software and hardware, as well as other assets to drive organizational goals and efficiency.'
+    desc:`We  can help you find the right renewable energy solutions for your business. `
   },
 
  
