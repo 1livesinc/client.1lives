@@ -6,7 +6,7 @@ const URL = process.env.REACT_APP_SERVER_URL;
 export const IpAdrress = async ({ setLoading, setIPData }) => {
   try {
     let res = await axios.get(
-      `http://api.ipstack.com/check?access_key=${process.env.REACT_APP_IP_ADRRSS_API_KEY}`
+      `https://api.ipstack.com/check?access_key=${process.env.REACT_APP_IP_ADRRSS_API_KEY}`
     );
     if (res) {
       setLoading(false);

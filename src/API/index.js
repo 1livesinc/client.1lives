@@ -4,7 +4,7 @@ import axios from 'axios';
 export const IpAddress = async ({ setLoading, setIpData }) => {
   try {
     let res = await axios.get(
-      `http://api.ipstack.com/check?access_key=${process.env.REACT_APP_IP_ADRRESS_API_KEY}`
+      `https://api.ipstack.com/check?access_key=${process.env.REACT_APP_IP_ADRRESS_API_KEY}`
     );
     if (res) {
       setLoading(false);
