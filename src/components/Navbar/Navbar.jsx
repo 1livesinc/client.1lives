@@ -22,7 +22,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt=""
-              className=" z-101 object-contain md:cursor-pointer h-9"
+              className=" z-101 object-contain md:cursor-pointer h-11"
             />
           </Link>
 

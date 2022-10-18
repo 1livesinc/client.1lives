@@ -7,7 +7,7 @@ module.exports = {
     extend: {
   
       colors: {
-        primary: "#CC0000",
+        primary: "#00B0F0",
       },
       fontFamily: {
         main: ["Roboto Slab", "serif"],

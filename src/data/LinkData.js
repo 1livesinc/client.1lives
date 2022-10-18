@@ -8,104 +8,105 @@ const LinkData = [
     
     {
       id:1,
-      navitem: 'IT Consulting',
+      navitem: 'DevOps',
       submenu: true,
-      portfolio:'Expert IT consultancy',
+      portfolio:'Web & Mobile Apps',
       imgURL:`${slide1}`,
       sublinks: [
         {
-          subnav: 'Data Migration',
-          link: '/data-migration',
+          subnav: 'Web',
+          link: '/web',
           
         },
         {
-          subnav: 'Hosting',
-          link: '/hosting',
+          subnav: 'Android',
+          link: '/android',
         },
         {
-          subnav: 'Google Education',
-          link: '/google-edu',
+          subnav: 'iOS',
+          link: '/iOS',
         },
         {
-          subnav: 'Unified Communication',
-          link: '/uc',
+          subnav: 'SaaS',
+          link: '/saas',
         },
+       
       ],
     },
     {
       id:2,
-      navitem: 'Cloud',
+      navitem: 'SECaaS',
       submenu: true,
-      portfolio:'Cloud Solutions',
+      portfolio:'Cyber security',
       imgURL:`${slide2}`,
       sublinks: [
         {
-          subnav: 'Amazon Web Services(AWS)',
-          link: '/AWS',
+          subnav: 'Secure Websites & APIs',
+          link: '/swapi',
         },
         {
-          subnav: 'Microsoft Azure',
-          link: '/microsoft-azure',
+          subnav: 'Zero Trust Access',
+          link: '/zta',
         },
         {
-          subnav: 'Google Cloud',
-          link: '/google-cloud',
+          subnav: 'L3 DDoS Mitigation',
+          link: '/ddoS-mitigation',
         },
         {
-          subnav: 'Google Cloud',
-          link: '/google-cloud',
+          subnav: 'Phishing-resistant MFA',
+          link: '/prmfa',
         },
        
       ],
     },
     {
       id:3,
-      navitem: 'Digital Services',
+      navitem: 'Assistive Technology',
       submenu: true,
-      portfolio:'Digital transformation is a game changer',
+      portfolio:'Virtual Memory',
       imgURL:`${slide3}`,
       sublinks: [
        
         {
-          subnav: 'App Development',
-          link: '/app-dev',
+          subnav: 'Learning',
+          link: '/learning',
         },
         {
-          subnav: 'Video Conferencing',
-          link: '/video-conferencing',
+          subnav: 'Communication',
+          link: '/communication',
         },
         {
-          subnav: 'Web Dev & SEO',
-          link: '/webdev-seo',
+          subnav: 'Cognitive',
+          link: '/cognitive',
         },
         {
-          subnav: 'Graphic Design',
-          link: '/graphic-design',
+          subnav: 'Low Vision',
+          link: '/low-vision',
         },
       ],
     },
     {
       id:4,
-      navitem: 'Procurement',
+      navitem: 'Solar Energy',
       submenu: true,
       portfolio:'Buying from us as your trusted advisor',
       imgURL:`${slide4}`,
       sublinks: [
         {
-          subnav: 'Software & Hardware',
-          link: '/software-hardware',
+          subnav: 'Design Software',
+          link: '/design-software',
         },
         {
-          subnav: 'Office 365',
-          link: '/o365',
+          subnav: 'Asset Management',
+          link: '/asset-mgmt',
         },
         {
-          subnav: 'POS System',
-          link: '/pos',
+          subnav: 'Field Service',
+          link: '/field-service',
         },
         {
-          subnav: 'Google Services',
-          link: '/google-services',
+          subnav: 'Solar Monitoring',
+          link: '/solar-monitor',
         },
       ],
     },
@@ -136,23 +137,6 @@ const LinkData = [
       ],
     },
    
-   /*  {
-      id:6,
-      name: 'Contact Us',
-      submenu: true,
-      sublinks: [
-        {
-          name: 'Office',
-          link: '/office',
-        },
-        {
-          name: 'Enquiry',
-          link: '/enquiry',
-        },
-      
-       
-      ],
-    }, */
    
   ];
 

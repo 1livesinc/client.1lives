@@ -2,26 +2,26 @@
 const slidecontent = [
   {
     
-    heading: "IT Consulting",
+    heading: "DevOps",
     desc: "We provide technology-based guidance and advice as it relates to the modernization and optimization of existing methodologies. ",
    
     
   },
   {
   
-    heading: "Cloud",
+    heading: "SECaaS",
     desc: "We partner with industry top cloud providers to bring you on-demand services, & storage applications. ",
    
   },
   {
     
-    heading: "Digital Services",
+    heading: "Assistive Technology",
     desc: "We are client-centric team of professionals with a passion for creating fully responsive webapps and digital experiences. ",
    
   },
   {
     
-    heading: "Procurement",
+    heading: "Solar Energy",
     desc: "We acquire software and hardware, as well as other assets to drive organizational goals and efficiency. ",
   
   },

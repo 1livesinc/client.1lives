@@ -17,15 +17,15 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
             <div className="mb-5">
-              <h4 className="text-2xl pb-4">AmaraTech IT Soultions</h4>
+              <h4 className="text-2xl pb-4">1LIVES</h4>
               <p className="text-gray-500">
-                GLEN BURNIE, MD 21060 <br />
+                Wilmington, DE 19808<br />
                 United States
                 <br />
                 <br />
-                <strong>Phone:</strong>+1 (410) 8552206
+                <strong>Phone:</strong>+1 (302) 261-5342
                 <br />
-                <strong>Email:</strong> info@amaratechit.com
+                <strong>Email:</strong> customercare@1lives.us
               </p>
             </div>
 
@@ -33,22 +33,19 @@ const Footer = () => {
               <h4 className="  pb-4">Services</h4>
               <div className="flex items-center  text-gray-500 pb-4">
                 <FaChevronRight />
-                <Link>IT Consulting</Link>
+                <Link>DevOps</Link>
               </div>
               <div className="flex items-center  text-gray-500 pb-4">
-                <FaChevronRight /> <Link>Cloud</Link>
+                <FaChevronRight /> <Link>SECaaS</Link>
               </div>
               <div className="flex items-center  text-gray-500 pb-4">
-                <FaChevronRight /> <Link>Digital Services</Link>
-              </div>
-              <div className="flex items-center  text-gray-500 pb-4">
-                <FaChevronRight />
-                <Link>Procurement</Link>
+                <FaChevronRight /> <Link>Assistive Technology</Link>
               </div>
               <div className="flex items-center  text-gray-500 pb-4">
                 <FaChevronRight />
-                <Link>Web/Mobile Apps Development</Link>
+                <Link>Solar Energy</Link>
               </div>
+              
             </div>
             <div className="mb-5">
               <h4 className="pb-4">About</h4>
@@ -98,13 +95,13 @@ const Footer = () => {
         <div className="max-w-7xl flex flex-col sm:flex-row py-4 mx-auto justify-between items-center">
           <div className="text-center">
             <div>
-              Copyright <strong>AmaraTechIT Solutions</strong>. All Rights
+              Copyright <strong>1LIVES</strong>. All Rights
               Reserved.
             </div>
             <div>
               Designed by{' '}
-              <Link to="https://www.amaratechit.com" className="text-primary">
-                AmaraTech DevOps Team
+              <Link to="/devops" className="text-primary">
+                DevOps Team
               </Link>
             </div>
           </div>

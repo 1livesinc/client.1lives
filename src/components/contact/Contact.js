@@ -95,13 +95,13 @@ function Contact() {
             <div className="box-1 bg-white flex-colo py-6 sm:py-0">
             
               <img
-                src="https://media.amaratechit.com/wp-content/uploads/2022/10/Logo-1.png"
+                src="https://media.1lives.us/wp-content/uploads/2022/10/favicon.png"
                 className="w-64 h-64 object-contain"
                 alt="logo"
               />
              <div className="m-3"><video src={atis} autoPlay loop muted /></div>
               <p className="itaic text-sm">
-                Your country is{' '}
+                Location{' '}
                 <span className="font-bold">({ipData && ipData})</span>
               </p>
             </div>
@@ -162,7 +162,7 @@ function Contact() {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     type="number"
-                    placeholder="4108552206"
+                    placeholder="3022615342"
                     className="placeholder:text-gray text-main col-span-7 px-3"
                   />
                 </div>

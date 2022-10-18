@@ -59,7 +59,7 @@ const Slider = ({sliderdata}) => {
 
 
                   <img src={sliderdata[swipeSlide].image} alt={sliderdata[swipeSlide].id} />
-                  <div className="w-2/5 absolute top-7 left-0 right-0 m-auto p-4 pr-6 border-1-8 border-transparent rounded-md shadow-md space-y-2 bg-[#b91c1cb3]">
+                  <div className="w-2/5 absolute top-7 left-0 right-0 m-auto p-4 pr-6 border-1-8 border-transparent rounded-md shadow-md space-y-2 bg-[#00b0f075]">
                     <h2 className="text-lg font-semibold leading-6 text-white">{sliderdata[swipeSlide].title}</h2>
                     <p className="text-white">{sliderdata[swipeSlide].desc}</p>
                   </div>
