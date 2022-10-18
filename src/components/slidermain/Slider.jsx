@@ -31,7 +31,7 @@ const Slider = ({sliderdata}) => {
   const startSlider = () => {
     slideInterval = setInterval(() => {
       handleNextClicked();
-    }, 2000);
+    }, 11000);
   };
 
   const pauseSlider = () => {
