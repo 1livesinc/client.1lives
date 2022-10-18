@@ -1,7 +1,6 @@
 {
   "name": "client.1lives",
   "version": "0.1.0",
-  "homepage": "1lives.us",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
